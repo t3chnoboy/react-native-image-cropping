@@ -1,3 +1,5 @@
+# Maintained version of react-native-image-cropping
+
 Simple react-native image cropping library wrapper around [siong1987/TOCropViewController](https://github.com/siong1987/TOCropViewController)
 
 ![TOCropViewController](https://raw.githubusercontent.com/siong1987/TOCropViewController/master/screenshot.jpg)
