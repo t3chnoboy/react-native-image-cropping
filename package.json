@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "meznaric/react-native-image-cropping",
   "dependencies": {
-    "TOCropViewController": "EricWiener/TOCropViewController/Objective-C/TOCropViewController"
+    "TOCropViewController": "EricWiener/TOCropViewController"
   },
   "peerDependencies": {
     "react-native": ">=0.40.0"
