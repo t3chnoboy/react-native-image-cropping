@@ -10,7 +10,7 @@ Supported only on iOS.
 
 ### Add it to your project
 
-1. `npm install react-native-image-cropping --save`
+1. `npm install https://github.com/EricWiener/react-native-image-cropping --save`
 2. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 3. Go to `node_modules` ➜ `react-native-image-cropping` and add `ReactNativeImageCropping.xcodeproj`
 4. In XCode, in the project navigator, select your project. Add `libReactNativeImageCropping.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
