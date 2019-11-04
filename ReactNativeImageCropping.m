@@ -119,7 +119,7 @@ RCT_EXPORT_METHOD(cropImageWithUrlAndAspect:(NSString *)imageUrl
         [cropViewController dismissViewControllerAnimated:YES completion:nil];
     });
 
-    NSData *jpgData = UIImageJPEGRepresentation(image, 95);
+    NSData *jpgData = UIImageJPEGRepresentation(image, 90);
     NSString *fileName = [NSString stringWithFormat:@"resized-%lf.jpg", [NSDate timeIntervalSinceReferenceDate]];
     NSString *filePath = [NSTemporaryDirectory() stringByAppendingPathComponent:fileName];
     [jpgData writeToFile:filePath atomically:YES];
